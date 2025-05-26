@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #fff;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid red;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Jarak antara logo dan tulisan */
+}
+
+.topbar h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard a.card {
+  text-decoration: none;
+  color: inherit; /* biar teks tetap pakai warna default */
+  transition: transform 0.2s ease;
+}
+
+.dashboard a.card:hover {
+  transform: scale(1.02); /* efek hover */
+}
+
+
+.profile-circle {
+  background: hotpink;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 6px 6px 0px #00000050;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 80px;
+  align-self: flex-end;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.center-card {
+  grid-column: 1 / span 2; /* Buat dia berada di tengah baris baru */
+  width: 50%; 
+  margin: 0 auto; 
+}
+
+
+.overlay {
+  background-color: #b6e9ec;
+}
+
+.masuk {
+  background-color: #cdb3f3;
+}
+
+.keluar {
+  background-color: #fdd175;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: monospace;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.card.streamer {
+  background-color: #ffeaa7;
+}
+.card img {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+

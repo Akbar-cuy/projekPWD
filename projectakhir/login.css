@@ -1,0 +1,73 @@
+body {
+    background-color: #f4fafa;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background: #f1f7f7;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 0 #222;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+  }
+
+  .login-container img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0 0.25rem;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    font-family: 'Courier New', monospace;
+  }
+
+  .link {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  button {
+    width: 100%;
+    background: #91dbe3;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #222;
+  }
+
+  .footer {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+  }
+
+  .footer a {
+    margin: 0 0.5rem;
+  }
